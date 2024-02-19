@@ -1,0 +1,138 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Lato, Helvetica, sans-serif;
+  padding: clamp(20px, 5vw, 50px) 10px 10px;
+  background: #f1f1f1;
+}
+
+#faq {
+  box-shadow: 0 20px 20px 0px #2222224d;
+  width: 70%;
+  margin: 0 auto;
+  height: 80vh;
+}
+
+.banner {
+  margin: 0 auto;
+  height: 40vh;
+  width: 100%;
+  background-image: linear-gradient(
+      0,
+      rgba(133, 133, 133, 0.52) 0%,
+      rgba(133, 133, 133, 0.52) 34%,
+      rgba(96, 96, 96, 0.52) 34%,
+      rgba(96, 96, 96, 0.52) 69%,
+      rgba(59, 59, 59, 0.52) 69%,
+      rgba(59, 59, 59, 0.52) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgb(4, 222, 252) 0%,
+      rgb(4, 222, 252) 12.5%,
+      rgb(17, 194, 235) 12.5%,
+      rgb(17, 194, 235) 25%,
+      rgb(30, 165, 219) 25%,
+      rgb(30, 165, 219) 37.5%,
+      rgb(43, 137, 202) 37.5%,
+      rgb(43, 137, 202) 50%,
+      rgb(57, 108, 185) 50%,
+      rgb(57, 108, 185) 62.5%,
+      rgb(70, 80, 168) 62.5%,
+      rgb(70, 80, 168) 75%,
+      rgb(83, 51, 152) 75%,
+      rgb(83, 51, 152) 87.5%,
+      rgb(96, 23, 135) 87.5%,
+      rgb(96, 23, 135) 100%
+    );
+}
+
+.container-faq {
+  background: #ffffff;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin: auto;
+  padding: 20px 30px;
+  transform: translateY(-50%);
+  box-shadow: 0 10px 20px 0px #2222221f;
+}
+
+.container-faq h1 {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+
+.questions h4 {
+  display: inline;
+  font-family: Raleway, sans-serif;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.plus-btn {
+  background-image: url(image/plus.png);
+  display: flex;
+  height: 25px;
+  width: 25px;
+  background-size: cover;
+  margin-left: auto;
+  cursor: pointer;
+  transform: translateY(-25px);
+}
+
+.plus-btn.active {
+    background-image: url(image/moins.png);
+    display: flex;
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.texte {
+    display: none;
+}
+.texte.active {
+    display: flex;
+  line-height: 1.4;
+  color: rgb(59, 59, 59);
+  opacity: 1;
+  margin-bottom: 20px;
+}
+
+/* .texte-deux {
+    display: none;
+}
+.texte-deux.active {
+    display: flex;
+  line-height: 1.4;
+  color: rgb(59, 59, 59);
+  opacity: 1;
+  margin-bottom: 20px;
+}
+
+.texte-trois {
+    display: none;
+}
+.texte-trois.active {
+    display: flex;
+  line-height: 1.4;
+  color: rgb(59, 59, 59);
+  opacity: 1;
+  margin-bottom: 20px;
+} */
